@@ -8,7 +8,7 @@ The main source of reference is [Platoon](https://github.com/mila-udem/platoon),
 * [Theano with gpuarray backend, with NCCL support](http://deeplearning.net/software/theano/tutorial/using_gpu.html#gpuarray-backend)
 
 ## Usage
-`python launcher.py N` where `N` is the number of GPUs on the same motherboard. The default model is VGG16, a ConvNet with ~160M parameters.
+`python launcher.py N` where `N` is the number of GPUs on the same motherboard. The default model is VGG16, a ConvNet with ~140M parameters.
 
 ## Benchmark
 ![Benchmark picture](https://github.com/yaoli/theano_multi_gpu/blob/master/benchmark.png)
