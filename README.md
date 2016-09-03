@@ -1,7 +1,7 @@
 ## Introduction
 This repo shows how to use Theano with multiple GPUs, with the new Theano backend and only implements multi-GPU sync gradient updates (grab a big minibatch, chop it into N parts, feeding each part to one of N GPUs on the same machine node, then aggregating gradients across GPUs with averaging). 
 
-The main source of reference is [Platoon](https://github.com/mila-udem/platoon), which offers a more sophiscated toolkit of parallel training across simple/multiple nodes, with ASGD, EASGD, Downpour SGD.  
+The main source of reference is [Platoon](https://github.com/mila-udem/platoon), which offers a more sophiscated toolkit of parallel training across single/multiple nodes, with ASGD, EASGD, Downpour SGD.  
 
 ## Dependency
 * [Lasagne](https://github.com/Lasagne/Lasagne)
