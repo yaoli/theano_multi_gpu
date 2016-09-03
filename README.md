@@ -13,3 +13,5 @@ The main source of reference is [Platoon](https://github.com/mila-udem/platoon),
 ## Benchmark
 ![Benchmark picture](https://github.com/yaoli/theano_multi_gpu/blob/master/benchmark.png)
 
+## Bonus
+It comes with RESNET50 and VGG16 compatible with the gpuarray backend. Both are adapted from Lasagne Model Zoo. 
