@@ -11,6 +11,12 @@ The main source of reference is [Platoon](https://github.com/mila-udem/platoon),
 `python launcher.py N` where `N` is the number of GPUs on the same motherboard. The default model is VGG16, a ConvNet with ~140M parameters.
 
 ## Benchmark
+| minibath_size | 1 gpu  | 2 gpus | 3 gpus | 4 gpus |
+|---------------|--------|--------|--------|--------|
+| 16            | 54.51  | 33.83  | 28.2   | 23.29  |
+| 32            | 100.86 | 59.7   | 46.48  | 36.83  |
+| 64            | 194.53 | 107.56 | 77.45  | 63.35  |
+
 ![Benchmark picture](https://github.com/yaoli/theano_multi_gpu/blob/master/benchmark.png)
 
 ## Bonus
